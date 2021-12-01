@@ -1,0 +1,4 @@
+
+            SELECT id, creation_date, last_modified_date, removal_date, removed, archqueue, author_id, case_id, cimodel, configitem$activeaudit, configitem$existstatelog, countcimass, datechcl, datechrep, datefinishexp, dateofservprov, datestartexp, dnsname, headplace, headslmservice, idholder, invunit$monitoringdate, invunitqueue, ip, lastauddate, lastcioffdate, lastclosedate, location, mac, num_, parent, prefix, responsibleemployee_id, responsiblestarttime, responsibleteam_id, sn, sourcecall, state, statestarttime, supservice, supsrvtech, title, vendor FROM tbl_objectbase 
+            ORDER BY id ASC OFFSET {offset} LIMIT {limit}
+        

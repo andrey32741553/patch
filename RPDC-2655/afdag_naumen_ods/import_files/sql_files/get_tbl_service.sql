@@ -1,0 +1,4 @@
+
+            SELECT id, creation_date, last_modified_date, removal_date, removed, title, case_id, num_, responsiblestarttime, state, statestarttime, inventorynum, description, groupexprfc, groupdevman, groupregrfcman, idholder, parent, groupitservman, techservice$provider, author_id, system_icon_id, responsibleemployee_id, responsibleteam_id, emailsc, compcheck, groupbisclient, groupresprfc, negotstaddtkt, defstart, resippolice, rtfallow, grpallow, locallow, grpdesc, flallow, ciallow, prefix, canchecksn, monitoringlink, archiveaction, stabilmangroup, mangroupinv, assetpolicy, usericon, routcinotfound, groupregisprb, prbregispolicy FROM tbl_service 
+            ORDER BY id ASC OFFSET {offset} LIMIT {limit}
+        

@@ -1,0 +1,4 @@
+
+            SELECT id, creation_date, last_modified_date, removal_date, removed, title, case_id, city_phone, date_of_birth, email, first_name, home_phone, internal_phone, last_name, login, middle_name, mobile_phone, num_, password, post, private_code, author_id, system_icon_id, parent_id, location, timezone, idholder, headou, iternum, postelement, dn, is_employee_locked, password_change_date, password_must_be_changed, immheaduser, lastlogindate, room, intervalstart, intervalend, comment_author_alias, is_employee_for_integration FROM tbl_employee 
+            ORDER BY id ASC OFFSET {offset} LIMIT {limit}
+        
